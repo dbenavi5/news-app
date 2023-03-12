@@ -60,7 +60,7 @@ const fetchNews = async (
         })
     });
 
-    console.log('LOADING NEW DATA FROM API for category>>>', category, keywords);
+    // console.log('LOADING NEW DATA FROM API for category>>>', category, keywords);
 
     const newsResponse = await response.json();
 
@@ -73,5 +73,5 @@ const fetchNews = async (
 
 export default fetchNews
 
-// stepzen import curl "http://api.mediastack.com/v1/news?access_key=a99b077a5f64c3760cd2a2982e0592e8&categories=business,sports"
+// stepzen import curl "http://api.mediastack.com/v1/news?access_key=ACCESS_API_KEY&categories=business,sports"
 // "http://api.mediastack.com/v1/news?access_key=ACCESS_API_KEY&countries=us%2Cgb&limit=100&offset=0&sort=published_desc"
