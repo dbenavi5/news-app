@@ -20,12 +20,12 @@ function SearchBox() {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         placeholder="Search Keywords"
-        className="w-full h-14 rounded-sm placeholder-gray-500 text-gray-500 outline-none flex-1 bg-transparent dark:text-emerald-500"
+        className="w-full h-14 rounded-sm placeholder-gray-500 outline-none flex-1 bg-transparent text-blue-400"
       ></input>
       <button
         type="submit"
         disabled={!input}
-        className="text-emerald-500  disabled:text-gray-400"
+        className="text-blue-500  disabled:text-gray-400"
       >
         Search
       </button>
