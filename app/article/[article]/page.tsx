@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import LiveTimeStamp from "../LiveTimestamp";
+import LiveTimeStamp from "../../LiveTimestamp";
 
 type Props = {
   searchParams?: DataEntry;
